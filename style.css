@@ -71,11 +71,15 @@ h1 {
     top:20px;
     left: 3%;
   }
+  #navbarr h1 {
+    font-size: 20vw;
+  }
 
 }
 @media (max-width: 272px) {
   #navbarr h1 {
-    font-size: 3em;
+    font-size: 20vw;
+    margin-left: -10px;
   }
 
 }
