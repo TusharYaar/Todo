@@ -1,0 +1,101 @@
+body {
+  background-color: #0049B7;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#boxadd {
+  height: 300px;
+  background-color: rgba(1, 214, 247, 0.85);
+margin: 10px auto;
+border-radius: 15px;
+position: absolute;
+z-index: 2;
+top:40px;
+left: 24%;
+margin: 0px auto;
+visibility: hidden;
+}
+
+#add , #cancel {
+  margin-top: 110px;
+}
+
+#input {
+  width: 100%;
+  padding:20px;
+  margin:30px auto;
+  border-radius: 15px;
+  border: 2px black solid;
+}
+#navbarr {
+background-color: #FF1D58;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+#listt, #listt2{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+.container-fluid {
+  position: relative;
+}
+.list-group-item  {
+  background-color: #FFF685;
+
+}
+
+
+
+#add1 {
+  list-style-type: none;
+}
+
+@media (max-width: 992px) {
+  #boxadd {
+    top:20px;
+    left: 16%;
+  }
+}
+@media (max-width: 767px) {
+  #boxadd {
+    top:20px;
+    left: 7.4%;
+  }
+}
+@media (max-width: 575px) {
+  #boxadd {
+    top:20px;
+    left: 3%;
+  }
+
+}
+@media (max-width: 272px) {
+  #navbarr h1 {
+    font-size: 3em;
+  }
+
+}
+
+input {
+  font-size: 1.5em;
+}
+
+#add {
+  margin-right: 30px;
+}
+.list-group-item button {
+  margin: -12px -20px;
+  border-radius: 5px;
+  border: none;
+  background-color: inherit;
+}
+
+.list-group-item button:hover {
+background-color: rgb(87, 31, 161);
+color: white;
+cursor: pointer;
+}
